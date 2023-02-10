@@ -4,17 +4,23 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    fontFamily:{
-      primary:'Poppins',
+    fontFamily: {
+      primary: 'Poppins',
     },
-    screens:{
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        lg: '30px',
+      },
+    },
+    screens: {
       sm: '640px',
       md: '768px',
       lg: '1024px',
       xl: '1280px',
     },
     extend: {
-      colors:{
+      colors: {
         primary: '203271',
       },
     },
